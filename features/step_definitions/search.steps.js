@@ -41,11 +41,11 @@ Given("user is on {string} page", async function (string) {
 });
 
 When('user clik by butten of date 1', async function () {
-  return await clickElement(this.page, "[data-time-stamp='1726693200']");
+  return await clickElement(this.page, "nav.page-nav > a:nth-child(1)");
 });
 
  When('user clik by butten of date 2', async function () {
-   return await clickElement (this.page, "[data-time-stamp='1726606800']");
+   return await clickElement (this.page, "nav.page-nav > a:nth-child(2)");
 });
 
  When('user clik by butten of date 3', async function () {
